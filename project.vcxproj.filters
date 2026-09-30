@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Library\App.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\main.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BootScene.cpp">
+      <Filter>BootScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TitleScene.cpp">
+      <Filter>TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayScene.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_ja_gryph_ranges.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ObjectManager.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\SceneManager.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Time.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputManager.cpp">
+      <Filter>BootScene\Common\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KeyboardInputManager.cpp">
+      <Filter>BootScene\Common\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MouseInputManager.cpp">
+      <Filter>BootScene\Common\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ControllerInputManager.cpp">
+      <Filter>BootScene\Common\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Random.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HorseManager.cpp">
+      <Filter>PlayScene\Horse</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HorseComputer.cpp">
+      <Filter>PlayScene\Horse\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HorsePlayer.cpp">
+      <Filter>PlayScene\Horse\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CsvReader.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CourseDataManager.cpp">
+      <Filter>PlayScene\Course</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>PlayScene\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Object3D.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animator.cpp">
+      <Filter>Other\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util.cpp">
+      <Filter>Other\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneFactory.cpp" />
+    <ClCompile Include="Source\HorseAnimLoader.cpp">
+      <Filter>PlayScene\Horse\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HorseCollisionManager.cpp">
+      <Filter>PlayScene\Horse</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HorseParamReader.cpp">
+      <Filter>PlayScene\Horse\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HorseModelLoader.cpp">
+      <Filter>PlayScene\Horse\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TimeStringFunc.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage.cpp">
+      <Filter>PlayScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BoxCollisionFunc.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DrawFigureFunc.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sky.cpp">
+      <Filter>PlayScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Horse.cpp">
+      <Filter>PlayScene\Horse</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HorseDataUI.cpp">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayUIManager.cpp">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RacePositionUI.cpp">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RaceTimeUI.cpp">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RemainingDistanceUI.cpp">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpeedUI.cpp">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StaminaUI.cpp">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WhipUI.cpp">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIBase.cpp">
+      <Filter>PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResultUIManager.cpp">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIManager.cpp">
+      <Filter>PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GoalTextUI.cpp">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TitleBackTextUI.cpp">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DrawNumFunc.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResultRacePositionUI.cpp">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BeforeStartUIManager.cpp">
+      <Filter>PlayScene\UI\BeforeStartUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StartCountUI.cpp">
+      <Filter>PlayScene\UI\BeforeStartUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GoalChecker.cpp">
+      <Filter>PlayScene\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GoalDataWriter.cpp">
+      <Filter>PlayScene\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ColorFunc.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundManager.cpp">
+      <Filter>BootScene\Common\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WatchCamera.cpp">
+      <Filter>PlayScene\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CommonCameraFunc.cpp">
+      <Filter>PlayScene\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStartData.cpp">
+      <Filter>BootScene\Common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModeSelector.cpp">
+      <Filter>TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AllHorseResultUI.cpp">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WaitHorseGoalUI.cpp">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameManager.cpp">
+      <Filter>PlayScene\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BeforeRaceUIManager.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AllHorseDataUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DrawDataSelectorUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RaceStartUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RaceDataUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BeforeRaceState.cpp">
+      <Filter>PlayScene\GameManager\BeforeRace</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TicketManager.cpp">
+      <Filter>PlayScene\Ticket</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BetManager.cpp">
+      <Filter>PlayScene\GameManager\BeforeRace</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BetUIManager.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BetTicketTypeSelectorUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HaveMoneyUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BetTicketDecideUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SelectedBetTicketList.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TicketBuyUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TicketWinOddsUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI\TIcketOdds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TicketOddsUIBase.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI\TIcketOdds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TicketPlaceOddsUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI\TIcketOdds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HaveBettingTicketsUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResultState.cpp">
+      <Filter>PlayScene\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PressNextUI.cpp">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PayOutResultUI.cpp">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HitTicketUI.cpp">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OddsManager.cpp">
+      <Filter>PlayScene\Ticket</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConditionParam.cpp">
+      <Filter>PlayScene\Horse\Param</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HorseDataDrawManager.cpp">
+      <Filter>PlayScene\GameManager\BeforeRace</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HorseInfoUI.cpp">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HorseCommentData.cpp">
+      <Filter>PlayScene\Horse\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlaySceneUIManager.cpp">
+      <Filter>PlayScene\UI\PlaySceneUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RaceHorseNumberUI.cpp">
+      <Filter>PlayScene\UI\PlaySceneUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ArrayNumberFunc.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Screen.h" />
+    <ClInclude Include="Source\SceneFactory.h" />
+    <ClInclude Include="Library\App.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\SceneBase.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\GameObject.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BootScene.h">
+      <Filter>BootScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TitleScene.h">
+      <Filter>TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayScene.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dxlib.hpp">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ObjectManager.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\SceneManager.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Time.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\myDxLib.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Struct.h" />
+    <ClInclude Include="Source\ControllerInputManager.h">
+      <Filter>BootScene\Common\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputManager.h">
+      <Filter>BootScene\Common\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyboardInputManager.h">
+      <Filter>BootScene\Common\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MouseInputManager.h">
+      <Filter>BootScene\Common\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateBase.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateMachine.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CommonManager.h">
+      <Filter>BootScene\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Random.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Horse.h">
+      <Filter>PlayScene\Horse</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseManager.h">
+      <Filter>PlayScene\Horse</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseComputer.h">
+      <Filter>PlayScene\Horse\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorsePlayer.h">
+      <Filter>PlayScene\Horse\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CsvReader.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CourseDataManager.h">
+      <Filter>PlayScene\Course</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>PlayScene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Object3D.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animator.h">
+      <Filter>Other\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimDefine.h">
+      <Filter>Other\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util.h">
+      <Filter>Other\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseAnimLoader.h">
+      <Filter>PlayScene\Horse\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseCollisionManager.h">
+      <Filter>PlayScene\Horse</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpeedParam.h">
+      <Filter>PlayScene\Horse\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseParam.h">
+      <Filter>PlayScene\Horse\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseParamReader.h">
+      <Filter>PlayScene\Horse\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseAnimDefine.h">
+      <Filter>PlayScene\Horse\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseModelLoader.h">
+      <Filter>PlayScene\Horse\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TimeStringFunc.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage.h">
+      <Filter>PlayScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoxCollisionFunc.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DrawFigureFunc.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sky.h">
+      <Filter>PlayScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Easing.h">
+      <Filter>Function\Easing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EasingUtil.h">
+      <Filter>Function\Easing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WhipUI.h">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseDataUI.h">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayUIManager.h">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RacePositionUI.h">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RaceTimeUI.h">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RemainingDistanceUI.h">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpeedUI.h">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StaminaUI.h">
+      <Filter>PlayScene\UI\PlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResultUIManager.h">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIBase.h">
+      <Filter>PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIManager.h">
+      <Filter>PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GoalTextUI.h">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResultRacePositionUI.h">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TitleBackTextUI.h">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DrawNumFunc.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BeforeStartUIManager.h">
+      <Filter>PlayScene\UI\BeforeStartUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StartCountUI.h">
+      <Filter>PlayScene\UI\BeforeStartUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GoalDataWriter.h">
+      <Filter>PlayScene\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GoalChecker.h">
+      <Filter>PlayScene\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BoostParam.h">
+      <Filter>PlayScene\Horse\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpeedCostParam.h">
+      <Filter>PlayScene\Horse\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ColorFunc.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StaminaParam.h">
+      <Filter>PlayScene\Horse\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundManager.h">
+      <Filter>BootScene\Common\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundResourseList.h">
+      <Filter>BootScene\Common\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WatchCamera.h">
+      <Filter>PlayScene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CommonCameraFunc.h">
+      <Filter>PlayScene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStartData.h">
+      <Filter>BootScene\Common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModeSelector.h">
+      <Filter>TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AllHorseResultUI.h">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WaitHorseGoalUI.h">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameManager.h">
+      <Filter>PlayScene\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BeforeRaceUIManager.h">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AllHorseDataUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DrawDataSelectorUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RaceStartUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RaceDataUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BeforeRaceState.h">
+      <Filter>PlayScene\GameManager\BeforeRace</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TicketManager.h">
+      <Filter>PlayScene\Ticket</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BetManager.h">
+      <Filter>PlayScene\GameManager\BeforeRace</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BetTicketTypeSelectorUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BetUIManager.h">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HaveMoneyUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BetTicketDecideUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SelectedBetTicketList.h">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TicketBuyUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TicketWinOddsUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI\TIcketOdds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TicketOddsUIBase.h">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI\TIcketOdds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TicketPlaceOddsUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI\TIcketOdds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BetManagerDefine.h">
+      <Filter>PlayScene\GameManager\BeforeRace</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HaveBettingTicketsUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI\BetUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResultState.h">
+      <Filter>PlayScene\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PressNextUI.h">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PayOutResultUI.h">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TicketDefine.h">
+      <Filter>PlayScene\Ticket</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HitTicketUI.h">
+      <Filter>PlayScene\UI\ResultUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OddsManager.h">
+      <Filter>PlayScene\Ticket</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ConditionParam.h">
+      <Filter>PlayScene\Horse\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseDataDrawManager.h">
+      <Filter>PlayScene\GameManager\BeforeRace</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseInfoUI.h">
+      <Filter>PlayScene\UI\BeforeRaceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HorseCommentData.h">
+      <Filter>PlayScene\Horse\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlaySceneUIManager.h">
+      <Filter>PlayScene\UI\PlaySceneUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RaceHorseNumberUI.h">
+      <Filter>PlayScene\UI\PlaySceneUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ArrayNumberFunc.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Library">
+      <UniqueIdentifier>{208c2106-181f-415c-a2e8-fa160c7f8651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BootScene">
+      <UniqueIdentifier>{4e7a122b-01b5-4a1f-bdd8-381c4cb2403d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitleScene">
+      <UniqueIdentifier>{a52f9c67-9c6c-4376-8f4c-07a10ecbc3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene">
+      <UniqueIdentifier>{8123ada4-16d1-40da-a8f3-3f9e93aafb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{a717257b-67b3-4bfa-834c-1e34032b33b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{087e7210-fbb4-47c2-b37c-174d5766a7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BootScene\Common">
+      <UniqueIdentifier>{77baac62-9b56-46e3-a98a-ecb83d8da1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BootScene\Common\InputManager">
+      <UniqueIdentifier>{f15d0a44-b5ad-4340-a6d5-7d2f3d0b21cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{cb333b76-4c2b-4cf9-a90c-47bfad887db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Horse">
+      <UniqueIdentifier>{aab1f567-859b-4648-8513-deca7a508042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Horse\Controller">
+      <UniqueIdentifier>{cb04a9ba-afe7-4710-87d0-399123cc0883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{3dd8ae74-449d-409a-a4b3-fb3e1512f298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Camera">
+      <UniqueIdentifier>{02d077ad-429f-4a24-bf2a-ff6a9e334908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Animator">
+      <UniqueIdentifier>{0f16a2fa-eeeb-4cdc-93a0-a9e8ac6552cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Horse\Param">
+      <UniqueIdentifier>{68b75b21-42ad-4f3a-a7d2-e9b326fe221d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Stage">
+      <UniqueIdentifier>{5b918b05-8a2e-4b8f-88a6-d5f15a06bef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\Easing">
+      <UniqueIdentifier>{ef2995b8-b511-42b2-8f8e-17d08f1e3656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Horse\Anim">
+      <UniqueIdentifier>{ba71b0e0-6824-4aa3-8368-2d6e0d067950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Course">
+      <UniqueIdentifier>{c2920352-6de4-432d-a9c0-0ee78d8512d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Goal">
+      <UniqueIdentifier>{f59bd4a3-cf5b-45bd-8c32-2ddb4c65e8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BootScene\Common\SoundManager">
+      <UniqueIdentifier>{53493cf1-fa49-4aa9-80b1-723a81317967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Horse\Model">
+      <UniqueIdentifier>{9c069e4d-663d-4dd6-be0d-502072f21c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BootScene\Common\Data">
+      <UniqueIdentifier>{6fea4917-0d07-4937-a07a-6be3c5645108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\GameManager">
+      <UniqueIdentifier>{6c2af10b-3c28-4ff5-96f0-c7b110b621fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\GameManager\BeforeRace">
+      <UniqueIdentifier>{13f4aa8a-4bc3-4a5a-ac4d-c1b0e5d57fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Ticket">
+      <UniqueIdentifier>{3cf65665-b3b1-4164-936e-3979adf0b75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\UI">
+      <UniqueIdentifier>{20d783d3-1c10-4f9e-935c-e692e0200dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\UI\PlayUI">
+      <UniqueIdentifier>{26b7eb4b-3d4a-455a-bad8-2d3945726979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\UI\ResultUI">
+      <UniqueIdentifier>{33d16943-1cc0-4282-a10f-c156e932a174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\UI\BeforeStartUI">
+      <UniqueIdentifier>{6f22e130-8885-4150-9bba-d6eb6fdd6161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\UI\BeforeRaceUI">
+      <UniqueIdentifier>{a0bd5498-dbec-4ce9-b34c-ce679e5d8dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\UI\BeforeRaceUI\BetUI">
+      <UniqueIdentifier>{81771884-7a1d-4e6c-b747-583f107fc624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\UI\BeforeRaceUI\BetUI\TIcketOdds">
+      <UniqueIdentifier>{50e2ce7a-cd7d-46aa-a6bd-7e8a79abeb45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Horse\Data">
+      <UniqueIdentifier>{40b84d45-083e-424a-bded-c2800e3d1b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\UI\PlaySceneUI">
+      <UniqueIdentifier>{ecb9ff03-9041-446f-80ab-6676dc14a325}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

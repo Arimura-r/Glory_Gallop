@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}</ProjectGuid>
+    <RootNamespace>project</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\DxLib;</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\DxLib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\DxLib;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\DxLib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\DxLib;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\DxLib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\DxLib;</AdditionalLibraryDirectories>
+      <OutputFile>GloryGallop.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h" />
+    <ClInclude Include="ImGui\imgui.h" />
+    <ClInclude Include="ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="ImGui\imgui_impl_dx9.h" />
+    <ClInclude Include="ImGui\imgui_impl_dxlib.hpp" />
+    <ClInclude Include="ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="ImGui\imgui_internal.h" />
+    <ClInclude Include="ImGui\imstb_rectpack.h" />
+    <ClInclude Include="ImGui\imstb_textedit.h" />
+    <ClInclude Include="ImGui\imstb_truetype.h" />
+    <ClInclude Include="Library\App.h" />
+    <ClInclude Include="Library\GameObject.h" />
+    <ClInclude Include="Library\myDxLib.h" />
+    <ClInclude Include="Library\Object3D.h" />
+    <ClInclude Include="Library\ObjectManager.h" />
+    <ClInclude Include="Library\Random.h" />
+    <ClInclude Include="Library\SceneBase.h" />
+    <ClInclude Include="Library\SceneManager.h" />
+    <ClInclude Include="Library\Time.h" />
+    <ClInclude Include="Source\AllHorseDataUI.h" />
+    <ClInclude Include="Source\AllHorseResultUI.h" />
+    <ClInclude Include="Source\Animator.h" />
+    <ClInclude Include="Source\AnimDefine.h" />
+    <ClInclude Include="Source\ArrayNumberFunc.h" />
+    <ClInclude Include="Source\BeforeRaceState.h" />
+    <ClInclude Include="Source\BeforeRaceUIManager.h" />
+    <ClInclude Include="Source\BeforeStartUIManager.h" />
+    <ClInclude Include="Source\BetManager.h" />
+    <ClInclude Include="Source\BetManagerDefine.h" />
+    <ClInclude Include="Source\BetTicketDecideUI.h" />
+    <ClInclude Include="Source\BetTicketTypeSelectorUI.h" />
+    <ClInclude Include="Source\ConditionParam.h" />
+    <ClInclude Include="Source\HaveBettingTicketsUI.h" />
+    <ClInclude Include="Source\HitTicketUI.h" />
+    <ClInclude Include="Source\HorseCommentData.h" />
+    <ClInclude Include="Source\HorseDataDrawManager.h" />
+    <ClInclude Include="Source\HorseInfoUI.h" />
+    <ClInclude Include="Source\OddsManager.h" />
+    <ClInclude Include="Source\PayOutResultUI.h" />
+    <ClInclude Include="Source\PlaySceneUIManager.h" />
+    <ClInclude Include="Source\PressNextUI.h" />
+    <ClInclude Include="Source\RaceHorseNumberUI.h" />
+    <ClInclude Include="Source\ResultState.h" />
+    <ClInclude Include="Source\TicketDefine.h" />
+    <ClInclude Include="Source\TicketOddsUIBase.h" />
+    <ClInclude Include="Source\TicketPlaceOddsUI.h" />
+    <ClInclude Include="Source\TicketWinOddsUI.h" />
+    <ClInclude Include="Source\BoostParam.h" />
+    <ClInclude Include="Source\BootScene.h" />
+    <ClInclude Include="Source\BoxCollisionFunc.h" />
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\ColorFunc.h" />
+    <ClInclude Include="Source\CommonCameraFunc.h" />
+    <ClInclude Include="Source\CommonManager.h" />
+    <ClInclude Include="Source\ControllerInputManager.h" />
+    <ClInclude Include="Source\DrawDataSelectorUI.h" />
+    <ClInclude Include="Source\GameStartData.h" />
+    <ClInclude Include="Source\GoalDataWriter.h" />
+    <ClInclude Include="Source\HaveMoneyUI.h" />
+    <ClInclude Include="Source\ModeSelector.h" />
+    <ClInclude Include="Source\RaceDataUI.h" />
+    <ClInclude Include="Source\RaceStartUI.h" />
+    <ClInclude Include="Source\SelectedBetTicketList.h" />
+    <ClInclude Include="Source\SoundManager.h" />
+    <ClInclude Include="Source\SoundResourseList.h" />
+    <ClInclude Include="Source\SpeedCostParam.h" />
+    <ClInclude Include="Source\StartCountUI.h" />
+    <ClInclude Include="Source\CsvReader.h" />
+    <ClInclude Include="Source\DrawFigureFunc.h" />
+    <ClInclude Include="Source\DrawNumFunc.h" />
+    <ClInclude Include="Source\Easing.h" />
+    <ClInclude Include="Source\EasingUtil.h" />
+    <ClInclude Include="Source\GameManager.h" />
+    <ClInclude Include="Source\GoalChecker.h" />
+    <ClInclude Include="Source\GoalTextUI.h" />
+    <ClInclude Include="Source\HorseAnimDefine.h" />
+    <ClInclude Include="Source\HorseAnimLoader.h" />
+    <ClInclude Include="Source\HorseCollisionManager.h" />
+    <ClInclude Include="Source\HorseComputer.h" />
+    <ClInclude Include="Source\HorseDataUI.h" />
+    <ClInclude Include="Source\HorseModelLoader.h" />
+    <ClInclude Include="Source\HorseParam.h" />
+    <ClInclude Include="Source\HorseParamReader.h" />
+    <ClInclude Include="Source\HorsePlayer.h" />
+    <ClInclude Include="Source\InputManager.h" />
+    <ClInclude Include="Source\KeyboardInputManager.h" />
+    <ClInclude Include="Source\MouseInputManager.h" />
+    <ClInclude Include="Source\PlayUIManager.h" />
+    <ClInclude Include="Source\Horse.h" />
+    <ClInclude Include="Source\HorseManager.h" />
+    <ClInclude Include="Source\RacePositionUI.h" />
+    <ClInclude Include="Source\RaceTimeUI.h" />
+    <ClInclude Include="Source\RemainingDistanceUI.h" />
+    <ClInclude Include="Source\ResultRacePositionUI.h" />
+    <ClInclude Include="Source\ResultUIManager.h" />
+    <ClInclude Include="Source\Screen.h" />
+    <ClInclude Include="Source\PlayScene.h" />
+    <ClInclude Include="Source\SceneFactory.h" />
+    <ClInclude Include="Source\Sky.h" />
+    <ClInclude Include="Source\SpeedParam.h" />
+    <ClInclude Include="Source\SpeedUI.h" />
+    <ClInclude Include="Source\Stage.h" />
+    <ClInclude Include="Source\StaminaParam.h" />
+    <ClInclude Include="Source\StaminaUI.h" />
+    <ClInclude Include="Source\StateBase.h" />
+    <ClInclude Include="Source\StateMachine.h" />
+    <ClInclude Include="Source\Struct.h" />
+    <ClInclude Include="Source\BetUIManager.h" />
+    <ClInclude Include="Source\TicketBuyUI.h" />
+    <ClInclude Include="Source\TicketManager.h" />
+    <ClInclude Include="Source\TimeStringFunc.h" />
+    <ClInclude Include="Source\TitleBackTextUI.h" />
+    <ClInclude Include="Source\TitleScene.h" />
+    <ClInclude Include="Source\CourseDataManager.h" />
+    <ClInclude Include="Source\UIBase.h" />
+    <ClInclude Include="Source\UIManager.h" />
+    <ClInclude Include="Source\Util.h" />
+    <ClInclude Include="Source\WaitHorseGoalUI.h" />
+    <ClInclude Include="Source\WatchCamera.h" />
+    <ClInclude Include="Source\WhipUI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp" />
+    <ClCompile Include="ImGui\imgui_draw.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="ImGui\imgui_ja_gryph_ranges.cpp" />
+    <ClCompile Include="ImGui\imgui_tables.cpp" />
+    <ClCompile Include="ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Library\App.cpp" />
+    <ClCompile Include="Library\main.cpp" />
+    <ClCompile Include="Library\Object3D.cpp" />
+    <ClCompile Include="Library\ObjectManager.cpp" />
+    <ClCompile Include="Library\Random.cpp" />
+    <ClCompile Include="Library\SceneManager.cpp" />
+    <ClCompile Include="Library\Time.cpp" />
+    <ClCompile Include="Source\AllHorseDataUI.cpp" />
+    <ClCompile Include="Source\AllHorseResultUI.cpp" />
+    <ClCompile Include="Source\Animator.cpp" />
+    <ClCompile Include="Source\ArrayNumberFunc.cpp" />
+    <ClCompile Include="Source\BeforeRaceState.cpp" />
+    <ClCompile Include="Source\BeforeRaceUIManager.cpp" />
+    <ClCompile Include="Source\BeforeStartUIManager.cpp" />
+    <ClCompile Include="Source\BetManager.cpp" />
+    <ClCompile Include="Source\BetTicketDecideUI.cpp" />
+    <ClCompile Include="Source\BetTicketTypeSelectorUI.cpp" />
+    <ClCompile Include="Source\ConditionParam.cpp" />
+    <ClCompile Include="Source\HaveBettingTicketsUI.cpp" />
+    <ClCompile Include="Source\HitTicketUI.cpp" />
+    <ClCompile Include="Source\HorseCommentData.cpp" />
+    <ClCompile Include="Source\HorseDataDrawManager.cpp" />
+    <ClCompile Include="Source\HorseInfoUI.cpp" />
+    <ClCompile Include="Source\OddsManager.cpp" />
+    <ClCompile Include="Source\PayOutResultUI.cpp" />
+    <ClCompile Include="Source\PlaySceneUIManager.cpp" />
+    <ClCompile Include="Source\PressNextUI.cpp" />
+    <ClCompile Include="Source\RaceHorseNumberUI.cpp" />
+    <ClCompile Include="Source\ResultState.cpp" />
+    <ClCompile Include="Source\TicketOddsUIBase.cpp" />
+    <ClCompile Include="Source\BetUIManager.cpp" />
+    <ClCompile Include="Source\TicketPlaceOddsUI.cpp" />
+    <ClCompile Include="Source\TicketWinOddsUI.cpp" />
+    <ClCompile Include="Source\BootScene.cpp" />
+    <ClCompile Include="Source\BoxCollisionFunc.cpp" />
+    <ClCompile Include="Source\Camera.cpp" />
+    <ClCompile Include="Source\ColorFunc.cpp" />
+    <ClCompile Include="Source\CommonCameraFunc.cpp" />
+    <ClCompile Include="Source\ControllerInputManager.cpp" />
+    <ClCompile Include="Source\DrawDataSelectorUI.cpp" />
+    <ClCompile Include="Source\GameStartData.cpp" />
+    <ClCompile Include="Source\GoalDataWriter.cpp" />
+    <ClCompile Include="Source\HaveMoneyUI.cpp" />
+    <ClCompile Include="Source\ModeSelector.cpp" />
+    <ClCompile Include="Source\RaceDataUI.cpp" />
+    <ClCompile Include="Source\RaceStartUI.cpp" />
+    <ClCompile Include="Source\SelectedBetTicketList.cpp" />
+    <ClCompile Include="Source\SoundManager.cpp" />
+    <ClCompile Include="Source\StartCountUI.cpp" />
+    <ClCompile Include="Source\CsvReader.cpp" />
+    <ClCompile Include="Source\DrawFigureFunc.cpp" />
+    <ClCompile Include="Source\DrawNumFunc.cpp" />
+    <ClCompile Include="Source\GameManager.cpp" />
+    <ClCompile Include="Source\GoalChecker.cpp" />
+    <ClCompile Include="Source\GoalTextUI.cpp" />
+    <ClCompile Include="Source\HorseAnimLoader.cpp" />
+    <ClCompile Include="Source\HorseCollisionManager.cpp" />
+    <ClCompile Include="Source\HorseComputer.cpp" />
+    <ClCompile Include="Source\HorseDataUI.cpp" />
+    <ClCompile Include="Source\HorseModelLoader.cpp" />
+    <ClCompile Include="Source\HorseParamReader.cpp" />
+    <ClCompile Include="Source\HorsePlayer.cpp" />
+    <ClCompile Include="Source\InputManager.cpp" />
+    <ClCompile Include="Source\KeyboardInputManager.cpp" />
+    <ClCompile Include="Source\MouseInputManager.cpp" />
+    <ClCompile Include="Source\PlayScene.cpp" />
+    <ClCompile Include="Source\Horse.cpp" />
+    <ClCompile Include="Source\HorseManager.cpp" />
+    <ClCompile Include="Source\PlayUIManager.cpp" />
+    <ClCompile Include="Source\RacePositionUI.cpp" />
+    <ClCompile Include="Source\RaceTimeUI.cpp" />
+    <ClCompile Include="Source\RemainingDistanceUI.cpp" />
+    <ClCompile Include="Source\ResultRacePositionUI.cpp" />
+    <ClCompile Include="Source\ResultUIManager.cpp" />
+    <ClCompile Include="Source\SceneFactory.cpp" />
+    <ClCompile Include="Source\Sky.cpp" />
+    <ClCompile Include="Source\SpeedUI.cpp" />
+    <ClCompile Include="Source\Stage.cpp" />
+    <ClCompile Include="Source\StaminaUI.cpp" />
+    <ClCompile Include="Source\TicketBuyUI.cpp" />
+    <ClCompile Include="Source\TicketManager.cpp" />
+    <ClCompile Include="Source\TimeStringFunc.cpp" />
+    <ClCompile Include="Source\TitleBackTextUI.cpp" />
+    <ClCompile Include="Source\TitleScene.cpp" />
+    <ClCompile Include="Source\CourseDataManager.cpp" />
+    <ClCompile Include="Source\UIBase.cpp" />
+    <ClCompile Include="Source\UIManager.cpp" />
+    <ClCompile Include="Source\Util.cpp" />
+    <ClCompile Include="Source\WaitHorseGoalUI.cpp" />
+    <ClCompile Include="Source\WatchCamera.cpp" />
+    <ClCompile Include="Source\WhipUI.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
